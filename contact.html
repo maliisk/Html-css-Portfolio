@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c20485228a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="iletisim">
+      <div class="container">
+        <h3 id="h3iletisim">İletişim</h3>
+
+        <form action="index.php" method="post">
+          <div id="iletisimopak">
+            <div id="formgroup">
+              <div id="solform">
+                <input
+                  type="text"
+                  name="isim"
+                  placeholder="Ad Soyad"
+                  required
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  name="tel"
+                  placeholder="Telefon Numarası"
+                  required
+                  class="form-control"
+                />
+              </div>
+              <div id="sagform">
+                <input
+                  type="email"
+                  name="mail"
+                  placeholder="Email"
+                  required
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  name="konu"
+                  placeholder="Konu Başlığı"
+                  required
+                  class="form-control"
+                />
+              </div>
+
+              <textarea
+                name="mesaj"
+                id=""
+                cols="30"
+                placeholder="Mesaj Giriniz"
+                required
+                class="form-control"
+                rows="10"
+              ></textarea>
+
+              <input type="submit" value="Gönder" />
+            </div>
+            <div id="adres">
+              <h4 id="adresbaslik">Adres :</h4>
+              <p class="adresp">
+                Mercedes-Benz Energy GmbH A Daimler AG company
+              </p>
+              <p class="adresp">Prof.-Gottfried-Bombach-Straße</p>
+              <p class="adresp">1 01917 Kamenz Germany</p>
+              <p class="adresp">+49 3578 3737-196</p>
+              <p class="adresp">Email : energy-sales@daimler.com</p>
+            </div>
+          </div>
+        </form>
+
+        <footer>
+          <div id="copyright">© 2022 | TÜM HAKLARI SAKLIDIR</div>
+          <div id="socialfooter">
+            <a href="#"><i class="fab fa-twitter social"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in social"></i></a>
+            <a href="#"><i class="fab fa-instagram social"></i></a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+h3 {
+  font-size: 55px;
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+.social {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+.social:hover {
+  background-color: #888;
+
+  -webkit-transform: scale(1.5);
+
+  -ms-transform: scale(1.5);
+
+  -moz-transform: scale(1.5);
+
+  transform: scale(1.5);
+}
+#iletisim {
+  background: url("t1.jpg");
+  background-size: cover;
+  padding: 50px;
+  height: auto;
+  text-align: center;
+}
+#h3iletisim {
+  color: white;
+}
+#iletisimopak {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  height: 550px;
+}
+#formgroup {
+  width: 700px;
+  float: left;
+  height: 500px;
+  text-align: left;
+}
+#solform {
+  width: 50%;
+  float: left;
+  padding-right: 5px;
+}
+#sagform {
+  width: 50%;
+  float: right;
+  padding-left: 5px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5px;
+  color: #495057;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+textarea {
+  font-family: Arial;
+  height: 100px;
+}
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #445c6e;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-left: 10px 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#adres {
+  width: 450px;
+  float: right;
+  padding-left: 30px;
+  height: 500px;
+  text-align: left;
+}
+#adresbaslik {
+  font-size: 30px;
+  color: white;
+}
+.adresp {
+  color: #ddd;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+#copyright {
+  font-size: 10px;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
